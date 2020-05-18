@@ -172,7 +172,7 @@ form.addEventListener("submit", function (event) {
         fd.append('audio_2', blob_arr['audio_2']);
 
         const upload = async data => {
-            return await fetch("http://http://virufy-api.herokuapp.com/public/api/app", {
+            return await fetch("http://virufy-api.herokuapp.com/public/api/app", {
                 method: "POST",
                 body: data,
             });
