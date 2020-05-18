@@ -173,7 +173,7 @@ form.addEventListener("submit", function (event) {
 
         const upload = async data => {
             return await fetch("https://virufy-api.herokuapp.com/public/api/app", {
-                mode: 'no-cors'
+                mode: 'no-cors',
                 method: "POST",
                 body: data,
             });
